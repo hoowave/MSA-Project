@@ -37,3 +37,12 @@ springdoc:
     path: /swagger-ui.html
     disable-swagger-default-url: true
     display-query-params-without-oauth2: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

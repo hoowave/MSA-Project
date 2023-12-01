@@ -6,3 +6,4 @@
 - SpringCloud Config 연동
 - Actuator 적용
 ##
+- Eureka와 서비스 연동

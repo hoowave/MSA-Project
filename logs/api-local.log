@@ -1,31 +1,69 @@
-2023-11-30T16:43:03.675+09:00  INFO 3020 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2023-11-30T16:43:05.235+09:00  INFO 3020 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-11-30T16:43:05.297+09:00  INFO 3020 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
-2023-11-30T16:43:05.628+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fdb9ff7-10d1-36bd-82ff-b98681e054ac
-2023-11-30T16:43:06.828+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5000 (http)
-2023-11-30T16:43:06.841+09:00  INFO 3020 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-11-30T16:43:06.842+09:00  INFO 3020 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
-2023-11-30T16:43:06.914+09:00  INFO 3020 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-11-30T16:43:06.915+09:00  INFO 3020 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3219 ms
-2023-11-30T16:43:07.475+09:00  INFO 3020 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-11-30T16:43:07.595+09:00  INFO 3020 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
-2023-11-30T16:43:07.677+09:00  INFO 3020 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2023-11-30T16:43:08.167+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-11-30T16:43:08.210+09:00  INFO 3020 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-11-30T16:43:08.359+09:00  INFO 3020 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3fe1c026
-2023-11-30T16:43:08.363+09:00  INFO 3020 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-11-30T16:43:08.422+09:00  WARN 3020 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDB103Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2023-11-30T16:43:08.424+09:00  WARN 3020 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
-2023-11-30T16:43:09.705+09:00  INFO 3020 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2023-11-30T16:43:09.956+09:00  INFO 3020 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-11-30T16:43:10.736+09:00  WARN 3020 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-30T16:43:13.238+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-11-30T16:43:13.320+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
-2023-11-30T16:43:13.499+09:00  INFO 3020 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5000 (http) with context path ''
-2023-11-30T16:43:13.530+09:00  INFO 3020 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 11.708 seconds (process running for 13.236)
-2023-11-30T16:43:13.913+09:00  INFO 3020 --- [item-service] [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-11-30T16:43:13.914+09:00  INFO 3020 --- [item-service] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-11-30T16:43:13.919+09:00  INFO 3020 --- [item-service] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2023-11-30T16:43:29.982+09:00  WARN 3020 --- [item-service] [http-nio-5000-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
-2023-11-30T16:43:30.165+09:00  WARN 3020 --- [item-service] [http-nio-5000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
-2023-11-30T16:43:42.766+09:00  INFO 3020 --- [item-service] [http-nio-5000-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 274 ms
+2023-12-01T15:15:24.273+09:00  INFO 2731 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
+2023-12-01T15:15:25.772+09:00  INFO 2731 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-01T15:15:26.026+09:00  INFO 2731 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 238 ms. Found 1 JPA repository interface.
+2023-12-01T15:15:26.329+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d167dd99-883e-3517-9050-3abf79e0857e
+2023-12-01T15:15:27.441+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5000 (http)
+2023-12-01T15:15:27.457+09:00  INFO 2731 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-01T15:15:27.458+09:00  INFO 2731 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-01T15:15:27.525+09:00  INFO 2731 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-01T15:15:27.526+09:00  INFO 2731 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3227 ms
+2023-12-01T15:15:28.158+09:00  INFO 2731 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-01T15:15:28.267+09:00  INFO 2731 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-01T15:15:28.334+09:00  INFO 2731 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-01T15:15:28.760+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-01T15:15:28.801+09:00  INFO 2731 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-01T15:15:29.134+09:00  INFO 2731 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@69238138
+2023-12-01T15:15:29.137+09:00  INFO 2731 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-01T15:15:29.183+09:00  WARN 2731 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDB103Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-01T15:15:29.184+09:00  WARN 2731 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-12-01T15:15:30.494+09:00  INFO 2731 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-01T15:15:30.836+09:00  INFO 2731 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01T15:15:31.558+09:00  WARN 2731 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-01T15:15:34.285+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-01T15:15:34.342+09:00  INFO 2731 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-01T15:15:34.578+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-12-01T15:15:34.761+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-01T15:15:34.848+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-01T15:15:34.856+09:00  INFO 2731 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-01T15:15:34.907+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-01T15:15:34.907+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-01T15:15:34.907+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-01T15:15:34.908+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-01T15:15:34.908+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-01T15:15:34.908+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-01T15:15:34.908+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-01T15:15:35.674+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-01T15:15:35.676+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-01T15:15:35.679+09:00  INFO 2731 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-01T15:15:35.687+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701411335686 with initial instances count: 0
+2023-12-01T15:15:35.703+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
+2023-12-01T15:15:35.704+09:00  INFO 2731 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701411335704, current=UP, previous=STARTING]
+2023-12-01T15:15:35.707+09:00  INFO 2731 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/172.30.1.52:item-service:5000: registering service...
+2023-12-01T15:15:35.741+09:00  INFO 2731 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5000 (http) with context path ''
+2023-12-01T15:15:35.742+09:00  INFO 2731 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2023-12-01T15:15:35.819+09:00  INFO 2731 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 13.564 seconds (process running for 15.212)
+2023-12-01T15:15:35.895+09:00  INFO 2731 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/172.30.1.52:item-service:5000 - registration status: 204
+2023-12-01T15:15:36.469+09:00  INFO 2731 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-01T15:15:36.470+09:00  INFO 2731 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-01T15:15:36.474+09:00  INFO 2731 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-12-01T15:15:55.622+09:00  WARN 2731 --- [item-service] [http-nio-5000-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/info.]
+2023-12-01T15:15:55.789+09:00  WARN 2731 --- [item-service] [http-nio-5000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2023-12-01T15:16:05.677+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-12-01T15:16:05.678+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-01T15:16:05.704+09:00  INFO 2731 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-01T15:16:21.593+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2023-12-01T15:16:21.596+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701411381596, current=DOWN, previous=UP]
+2023-12-01T15:16:21.596+09:00  INFO 2731 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/172.30.1.52:item-service:5000: registering service...
+2023-12-01T15:16:21.616+09:00  INFO 2731 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/172.30.1.52:item-service:5000 - registration status: 204
+2023-12-01T15:16:21.632+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01T15:16:21.641+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-01T15:16:21.694+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-01T15:16:21.696+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-01T15:16:24.703+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-12-01T15:16:24.716+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/172.30.1.52:item-service:5000 - deregister  status: 200
+2023-12-01T15:16:24.727+09:00  INFO 2731 --- [item-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

@@ -1,0 +1,138 @@
+2023-12-01T14:42:17.829+09:00  INFO 2377 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2023-12-01T14:42:22.651+09:00  INFO 2377 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=251077ae-d3f8-3d9d-a6af-44160bc183c6
+2023-12-01T14:42:23.538+09:00  INFO 2377 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2023-12-01T14:42:23.565+09:00  INFO 2377 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-01T14:42:23.567+09:00  INFO 2377 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-01T14:42:23.726+09:00  INFO 2377 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-01T14:42:23.727+09:00  INFO 2377 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5868 ms
+2023-12-01T14:42:25.329+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-01T14:42:25.338+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-01T14:42:25.860+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-01T14:42:25.861+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-01T14:42:27.420+09:00  WARN 2377 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-01T14:42:27.443+09:00  INFO 2377 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-01T14:42:27.491+09:00  INFO 2377 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-01T14:42:27.491+09:00  INFO 2377 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-01T14:42:27.510+09:00  INFO 2377 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701409347509 with initial instances count: 0
+2023-12-01T14:42:27.560+09:00  INFO 2377 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-01T14:42:27.562+09:00  INFO 2377 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2023-12-01T14:42:27.780+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-01T14:42:27.780+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-01T14:42:27.782+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-01T14:42:27.783+09:00  INFO 2377 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-01T14:42:27.860+09:00  INFO 2377 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2023-12-01T14:42:27.872+09:00  INFO 2377 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-01T14:42:27.874+09:00  INFO 2377 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-01T14:42:27.886+09:00  INFO 2377 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-12-01T14:42:27.991+09:00  INFO 2377 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-01T14:42:28.015+09:00  INFO 2377 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-01T14:42:28.016+09:00  INFO 2377 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-01T14:42:28.019+09:00  INFO 2377 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-01T14:42:28.019+09:00  INFO 2377 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-01T14:42:28.019+09:00  INFO 2377 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-01T14:42:28.033+09:00  INFO 2377 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path ''
+2023-12-01T14:42:28.035+09:00  INFO 2377 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-12-01T14:42:28.037+09:00  INFO 2377 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-01T14:42:28.076+09:00  INFO 2377 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 12.571 seconds (process running for 13.827)
+2023-12-01T14:42:28.468+09:00  INFO 2377 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-01T14:42:28.469+09:00  INFO 2377 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-01T14:42:28.471+09:00  INFO 2377 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-01T14:43:28.025+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T14:44:28.027+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T14:45:28.032+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T14:46:28.033+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T14:47:28.034+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T14:48:28.037+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T14:49:28.040+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T14:50:28.046+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T14:51:28.056+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-12-01T14:52:28.059+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T14:53:28.064+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T14:54:28.076+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-12-01T14:55:28.082+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T14:56:28.083+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1985ms
+2023-12-01T14:57:27.880+09:00  INFO 2377 --- [eureka-server] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2023-12-01T14:57:28.085+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T14:58:28.090+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T14:59:28.096+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T15:00:28.098+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:01:28.105+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-12-01T15:02:28.106+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:03:28.108+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:04:28.111+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T15:05:28.117+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T15:06:28.119+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:07:28.122+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-12-01T15:08:28.127+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T15:09:28.133+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T15:10:28.135+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:11:28.140+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T15:12:27.906+09:00  INFO 2377 --- [eureka-server] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2023-12-01T15:12:28.146+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T15:13:28.151+09:00  INFO 2377 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T15:13:28.484+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-01T15:13:28.540+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-01T15:13:28.558+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-01T15:13:28.561+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-12-01T15:13:28.565+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-12-01T15:13:28.566+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2023-12-01T15:13:28.568+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2023-12-01T15:13:28.587+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-01T15:13:28.587+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-01T15:13:28.589+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-01T15:13:28.604+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-01T15:13:28.637+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-01T15:13:28.640+09:00  INFO 2377 --- [eureka-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-12-01T15:13:57.150+09:00  INFO 2719 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2023-12-01T15:13:58.245+09:00  INFO 2719 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=251077ae-d3f8-3d9d-a6af-44160bc183c6
+2023-12-01T15:13:58.561+09:00  INFO 2719 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2023-12-01T15:13:58.572+09:00  INFO 2719 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-01T15:13:58.573+09:00  INFO 2719 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-01T15:13:58.641+09:00  INFO 2719 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-01T15:13:58.642+09:00  INFO 2719 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+2023-12-01T15:13:59.979+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-01T15:13:59.981+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-01T15:14:00.802+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-01T15:14:00.803+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-01T15:14:03.153+09:00  WARN 2719 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-01T15:14:03.190+09:00  INFO 2719 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-01T15:14:03.242+09:00  INFO 2719 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-01T15:14:03.242+09:00  INFO 2719 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-01T15:14:03.261+09:00  INFO 2719 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701411243260 with initial instances count: 0
+2023-12-01T15:14:03.321+09:00  INFO 2719 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-01T15:14:03.325+09:00  INFO 2719 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2023-12-01T15:14:03.544+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-01T15:14:03.544+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-01T15:14:03.544+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-01T15:14:03.544+09:00  INFO 2719 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-01T15:14:03.620+09:00  INFO 2719 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2023-12-01T15:14:03.631+09:00  INFO 2719 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-01T15:14:03.633+09:00  INFO 2719 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-01T15:14:03.645+09:00  INFO 2719 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-12-01T15:14:03.771+09:00  INFO 2719 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-01T15:14:03.799+09:00  INFO 2719 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-01T15:14:03.801+09:00  INFO 2719 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-01T15:14:03.801+09:00  INFO 2719 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-01T15:14:03.802+09:00  INFO 2719 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-01T15:14:03.802+09:00  INFO 2719 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-01T15:14:03.826+09:00  INFO 2719 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-01T15:14:03.827+09:00  INFO 2719 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path ''
+2023-12-01T15:14:03.832+09:00  INFO 2719 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-12-01T15:14:03.868+09:00  INFO 2719 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 8.269 seconds (process running for 9.425)
+2023-12-01T15:14:04.233+09:00  INFO 2719 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-01T15:14:04.234+09:00  INFO 2719 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-01T15:14:04.238+09:00  INFO 2719 --- [eureka-server] [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-12-01T15:15:03.810+09:00  INFO 2719 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-01T15:15:35.888+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/172.30.1.52:item-service:5000 with status UP (replication=false)
+2023-12-01T15:15:36.803+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/172.30.1.52:item-service:5000 with status UP (replication=true)
+2023-12-01T15:16:03.816+09:00  INFO 2719 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-12-01T15:16:21.612+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/172.30.1.52:item-service:5000 with status DOWN (replication=false)
+2023-12-01T15:16:22.125+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/172.30.1.52:item-service:5000 with status DOWN (replication=true)
+2023-12-01T15:16:24.713+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ITEM-SERVICE/172.30.1.52:item-service:5000 (replication=false)
+2023-12-01T15:16:25.221+09:00  WARN 2719 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ITEM-SERVICE/172.30.1.52:item-service:5000
+2023-12-01T15:16:25.222+09:00  INFO 2719 --- [eureka-server] [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ITEM-SERVICE - 172.30.1.52:item-service:5000
+2023-12-01T15:16:25.229+09:00  WARN 2719 --- [eureka-server] [TaskBatchingWorker-target_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task ITEM-SERVICE/172.30.1.52:item-service:5000:Cancel@localhost failed with response code 404
+2023-12-01T15:16:25.230+09:00  WARN 2719 --- [eureka-server] [TaskBatchingWorker-target_localhost-15] c.netflix.eureka.cluster.PeerEurekaNode  : ITEM-SERVICE/172.30.1.52:item-service:5000:Cancel@localhost: missing entry.
+2023-12-01T15:17:03.839+09:00  INFO 2719 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 21ms
+2023-12-01T15:18:03.844+09:00  INFO 2719 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-12-01T15:19:03.851+09:00  INFO 2719 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
