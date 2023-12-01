@@ -1,8 +1,8 @@
 server:
-  port: 0
+  port: 8070
 spring:
   application:
-    name: item-service
+    name: gateway-server
   profiles:
     active: local
   cloud:

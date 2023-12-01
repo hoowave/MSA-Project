@@ -6,4 +6,6 @@
 - SpringCloud Config 연동
 - Actuator 적용
 ##
-- Eureka와 서비스 연동
+- Eureka 서비스 연동
+- SpringCloud Gateway 연동
+- Gateway Logging
