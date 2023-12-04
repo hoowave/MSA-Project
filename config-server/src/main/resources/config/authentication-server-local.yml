@@ -1,23 +1,17 @@
 logging:
   file:
-    name: logs/gateway.log
+    name: logs/authentication.log
     max-size: 500MB
     max-history: 1
   level:
     root: info
-    org.msa.gatewayserver: debug
+    org.msa.authentication: debug
+
 
 spring:
   config:
     import:
       - classpath:/config/datasource-local.yml
-  cloud:
-    gateway:
-      routes:
-        - id : item-service
-          uri: lb://item-service
-          predicates:
-          - Path=/v1/item/**
 
 eureka:
   instance:

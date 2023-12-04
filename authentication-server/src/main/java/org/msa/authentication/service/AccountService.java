@@ -1,0 +1,32 @@
+package org.msa.authentication.service;
+
+import lombok.RequiredArgsConstructor;
+import org.msa.authentication.domain.Account;
+import org.msa.authentication.dto.AccountDTO;
+import org.msa.authentication.repository.AccountRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
+@Service
+@RequiredArgsConstructor
+public class AccountService {
+    private final AccountRepository accountRepository;
+
+    public Account selectAccount(AccountDTO accountDTO) {
+        Optional<Account> optional = accountRepository.findById(accountDTO.getAccountId());
+        if (optional.isPresent()) {
+            Account account = optional.get();
+            if (account.getPassword().equals(accountDTO.getPassword())) return account;
+        }
+        return null;
+    }
+
+    public void saveAccount(AccountDTO accountDTO, String token) {
+        accountRepository.save(Account.builder()
+                .accountId(accountDTO.getAccountId())
+                .password(accountDTO.getPassword())
+                .token(token)
+                .build());
+    }
+}

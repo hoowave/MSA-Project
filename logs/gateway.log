@@ -1,0 +1,160 @@
+2023-12-04T16:52:32.183+09:00  INFO 3582 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-12-04T16:52:33.924+09:00  INFO 3582 --- [gateway-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0020411e-2b5d-35d6-abac-8056eee815d6
+2023-12-04T16:52:34.011+09:00  WARN 3582 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2023-12-04T16:52:34.013+09:00  WARN 3582 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T16:52:34.016+09:00  WARN 3582 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T16:52:35.299+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-12-04T16:52:35.299+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-12-04T16:52:35.299+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-12-04T16:52:35.300+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-12-04T16:52:35.301+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-12-04T16:52:35.301+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-12-04T16:52:35.301+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-12-04T16:52:35.302+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-12-04T16:52:35.302+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-12-04T16:52:35.845+09:00  INFO 3582 --- [gateway-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-12-04T16:52:36.262+09:00  INFO 3582 --- [gateway-server] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-04T16:52:36.315+09:00  WARN 3582 --- [gateway-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-04T16:52:36.509+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-04T16:52:36.574+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-04T16:52:36.580+09:00  INFO 3582 --- [gateway-server] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-04T16:52:36.623+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-04T16:52:36.624+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-04T16:52:36.625+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-04T16:52:36.625+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-04T16:52:36.625+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-04T16:52:36.625+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-04T16:52:36.625+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-04T16:52:37.335+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-04T16:52:37.338+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-04T16:52:37.341+09:00  INFO 3582 --- [gateway-server] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-04T16:52:37.347+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701676357346 with initial instances count: 0
+2023-12-04T16:52:37.349+09:00  INFO 3582 --- [gateway-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2023-12-04T16:52:37.350+09:00  INFO 3582 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701676357350, current=UP, previous=STARTING]
+2023-12-04T16:52:37.351+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070: registering service...
+2023-12-04T16:52:37.493+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070 - registration status: 204
+2023-12-04T16:52:37.631+09:00  INFO 3582 --- [gateway-server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070
+2023-12-04T16:52:37.633+09:00  INFO 3582 --- [gateway-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-04T16:52:37.677+09:00  INFO 3582 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 8.129 seconds (process running for 10.16)
+2023-12-04T16:53:07.345+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-04T16:53:07.345+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-04T16:53:07.345+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-04T16:53:07.346+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-04T16:53:07.346+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-04T16:53:07.346+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-12-04T16:53:07.346+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-04T16:53:07.381+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-04T16:57:36.639+09:00  INFO 3582 --- [gateway-server] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-04T16:59:05.579+09:00  INFO 3582 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMTY3NjY4NywiaWF0IjoxNzAxNjc2Njc3fQ.Tc56XLVIv8M_3mT-arCJNK1PRltYaiK6bAWMdtCIGtHoNAFGjjuqlq8sVfYU3u6Nidb8S3wCbF-QbAdTJEWeyQ
+2023-12-04T16:59:05.580+09:00  INFO 3582 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = false
+2023-12-04T16:59:20.725+09:00  INFO 3582 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMTY3NjY4NywiaWF0IjoxNzAxNjc2Njc3fQ.Tc56XLVIv8M_3mT-arCJNK1PRltYaiK6bAWMdtCIGtHoNAFGjjuqlq8sVfYU3u6Nidb8S3wCbF-QbAdTJEWeyQ
+2023-12-04T16:59:20.726+09:00  INFO 3582 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = false
+2023-12-04T17:00:16.178+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2023-12-04T17:00:16.188+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701676816187, current=DOWN, previous=UP]
+2023-12-04T17:00:16.190+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070: registering service...
+2023-12-04T17:00:16.216+09:00  INFO 3582 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070 - registration status: 204
+2023-12-04T17:00:18.411+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-04T17:00:21.421+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-12-04T17:00:21.573+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070 - deregister  status: 200
+2023-12-04T17:00:21.580+09:00  INFO 3582 --- [gateway-server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-12-04T17:08:58.323+09:00  INFO 3723 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-12-04T17:08:59.668+09:00  INFO 3723 --- [gateway-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T17:08:59.913+09:00  INFO 3723 --- [gateway-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 235 ms. Found 1 JPA repository interface.
+2023-12-04T17:09:00.389+09:00  INFO 3723 --- [gateway-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c1aa7376-7bde-3460-a552-eede5fb2de1e
+2023-12-04T17:09:00.846+09:00  WARN 3723 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2023-12-04T17:09:00.852+09:00  WARN 3723 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T17:09:00.858+09:00  WARN 3723 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T17:09:01.348+09:00  WARN 3723 --- [gateway-server] [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-12-04T17:09:01.385+09:00  INFO 3723 --- [gateway-server] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-12-04T17:09:01.417+09:00 ERROR 3723 --- [gateway-server] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2023-12-04T17:12:16.359+09:00  INFO 3785 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-12-04T17:12:17.571+09:00  INFO 3785 --- [gateway-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T17:12:17.812+09:00  INFO 3785 --- [gateway-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 231 ms. Found 1 JPA repository interface.
+2023-12-04T17:12:18.129+09:00  INFO 3785 --- [gateway-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c1aa7376-7bde-3460-a552-eede5fb2de1e
+2023-12-04T17:12:18.619+09:00  WARN 3785 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2023-12-04T17:12:18.626+09:00  WARN 3785 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T17:12:18.632+09:00  WARN 3785 --- [gateway-server] [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2023-12-04T17:12:19.261+09:00  INFO 3785 --- [gateway-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T17:12:19.342+09:00  INFO 3785 --- [gateway-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-04T17:12:19.396+09:00  INFO 3785 --- [gateway-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-04T17:12:19.776+09:00  INFO 3785 --- [gateway-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-04T17:12:19.811+09:00  INFO 3785 --- [gateway-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-04T17:12:19.984+09:00  INFO 3785 --- [gateway-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@305289b3
+2023-12-04T17:12:19.988+09:00  INFO 3785 --- [gateway-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-04T17:12:20.041+09:00  WARN 3785 --- [gateway-server] [main] org.hibernate.orm.deprecation            : HHH90000025: MariaDB103Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-04T17:12:20.042+09:00  WARN 3785 --- [gateway-server] [main] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-12-04T17:12:21.321+09:00  INFO 3785 --- [gateway-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-04T17:12:21.682+09:00  INFO 3785 --- [gateway-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T17:12:23.421+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-12-04T17:12:23.421+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-12-04T17:12:23.421+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-12-04T17:12:23.422+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-12-04T17:12:23.422+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-12-04T17:12:23.422+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-12-04T17:12:23.422+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-12-04T17:12:23.424+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-12-04T17:12:23.424+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-12-04T17:12:23.425+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-12-04T17:12:23.425+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-12-04T17:12:23.425+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-12-04T17:12:23.425+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-12-04T17:12:23.425+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-12-04T17:12:24.260+09:00  INFO 3785 --- [gateway-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-12-04T17:12:25.186+09:00  INFO 3785 --- [gateway-server] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-04T17:12:25.495+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-04T17:12:25.559+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-04T17:12:25.564+09:00  INFO 3785 --- [gateway-server] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-04T17:12:25.602+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-04T17:12:25.603+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-04T17:12:26.094+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-04T17:12:26.098+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-04T17:12:26.102+09:00  INFO 3785 --- [gateway-server] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-04T17:12:26.112+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701677546111 with initial instances count: 2
+2023-12-04T17:12:26.127+09:00  INFO 3785 --- [gateway-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2023-12-04T17:12:26.128+09:00  INFO 3785 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701677546128, current=UP, previous=STARTING]
+2023-12-04T17:12:26.130+09:00  INFO 3785 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070: registering service...
+2023-12-04T17:12:26.198+09:00  INFO 3785 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/172.30.1.52:gateway-server:8070 - registration status: 204
+2023-12-04T17:12:26.419+09:00  INFO 3785 --- [gateway-server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070
+2023-12-04T17:12:26.421+09:00  INFO 3785 --- [gateway-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-04T17:12:26.466+09:00  INFO 3785 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 11.662 seconds (process running for 12.719)
+2023-12-04T17:13:20.837+09:00  INFO 3785 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMTY3NzU5NywiaWF0IjoxNzAxNjc3NTg3fQ.e6BouAvO7LYLdu8BljoVGqJvxozoSifaZ0o0XbNAvfhaNkIoeDFVfpuDfh2RSyQG-mNPiz0en2NF5_bx32C16w
+2023-12-04T17:13:22.146+09:00  INFO 3785 --- [gateway-server] [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-12-04T17:13:23.101+09:00  INFO 3785 --- [gateway-server] [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: c1d58129-1, method: POST , url: http://localhost:8070/v1/item/add/F
+2023-12-04T17:13:23.192+09:00  INFO 3785 --- [gateway-server] [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: c1d58129-1, request body :{
+    "id" : "1",
+    "name" : "물품1",
+    "description" : "물품설명1",
+    "count" : 1
+}
+2023-12-04T17:13:24.891+09:00  INFO 3785 --- [gateway-server] [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: c1d58129-1, method: POST, url: http://localhost:8070/v1/item/add/F, 
+response body :{"code":"200","message":"success"}

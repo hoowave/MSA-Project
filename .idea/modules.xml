@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Microservice.iml" filepath="$PROJECT_DIR$/Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authentication-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authentication-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/item-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/item-service.main.iml" />
     </modules>
