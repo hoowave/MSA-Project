@@ -686,3 +686,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2023-12-04T17:13:03.970+09:00  INFO 3765 --- [authentication-server] [http-nio-8900-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
 2023-12-04T17:13:04.499+09:00 DEBUG 3765 --- [authentication-server] [http-nio-8900-exec-2] o.m.a.c.AuthenticationController         : join.account.id = admin
 2023-12-04T17:13:08.138+09:00 DEBUG 3765 --- [authentication-server] [http-nio-8900-exec-3] o.m.a.c.AuthenticationController         : token.account.id = admin
+2023-12-04T17:16:20.415+09:00  INFO 3765 --- [authentication-server] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

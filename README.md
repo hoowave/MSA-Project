@@ -9,3 +9,5 @@
 - Eureka 서비스 연동
 - SpringCloud Gateway 연동
 - Gateway Logging
+- JWT 인증키 발급
+- Gateway 인증

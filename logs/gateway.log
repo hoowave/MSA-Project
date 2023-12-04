@@ -158,3 +158,4 @@ Consider the following:
 }
 2023-12-04T17:13:24.891+09:00  INFO 3785 --- [gateway-server] [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: c1d58129-1, method: POST, url: http://localhost:8070/v1/item/add/F, 
 response body :{"code":"200","message":"success"}
+2023-12-04T17:17:25.618+09:00  INFO 3785 --- [gateway-server] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
