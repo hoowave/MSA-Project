@@ -11,3 +11,7 @@
 - Gateway Logging
 - JWT 인증키 발급
 - Gateway 인증
+- Microservice로 사용자ID 전달
+##
+- 상품등록 테스트코드 추가
+  ![KakaoTalk_Photo_2023-12-08-14-55-05](https://github.com/hoowave/MSA-Project/assets/95414258/7ce7d9fa-d523-4274-ac7e-a4b9de994e4f)
