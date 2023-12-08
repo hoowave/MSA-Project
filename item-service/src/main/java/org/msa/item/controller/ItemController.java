@@ -5,13 +5,12 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.msa.item.constant.ItemType;
 import org.msa.item.dto.ItemDTO;
 import org.msa.item.dto.ResponseDTO;
-import org.msa.item.exception.ApiException;
 import org.msa.item.service.ItemService;
 import org.msa.item.valid.ItemTypeValid;
 import org.springframework.http.ResponseEntity;
@@ -34,36 +33,16 @@ public class ItemController {
             @ApiResponse(responseCode = "501", description = "API EXCEPTION")
     })
     @RequestMapping(value = "/add/{itemType}", method = RequestMethod.POST)
-    public ResponseEntity<ResponseDTO> add(@Valid @RequestBody ItemDTO itemDTO,
+    public ResponseEntity<ResponseDTO> add(HttpServletRequest request,
+                                           @Valid @RequestBody ItemDTO itemDTO,
                                            @ItemTypeValid @PathVariable String itemType) {
         ResponseDTO.ResponseDTOBuilder responseDTOBuilder = ResponseDTO.builder();
 
-        /*
-        log.debug("path.variable itemType = {}", itemType);
-        boolean hasItemType = false;
-        ItemType[] itemTypeList = ItemType.values();
-        for (ItemType i : itemTypeList) {
-            hasItemType = i.hasItemCd(itemType);
-            if (hasItemType) break;
-        }
-        if (!hasItemType) {
-            responseDTOBuilder.code("500").message("invalid itemType .[" + itemType + "]");
-            return ResponseEntity.ok(responseDTOBuilder.build());
-        } else {
-            itemDTO.setItemType(itemType);
-        }
-
-
-        try{
-            Integer.parseInt("test");
-        }catch (Exception e){
-            throw new ApiException("test에러");
-        }
-        */
-
+        String accountId = request.getHeader("accountId").toString().replace("[", "").replace("]", "");
+        log.info("accountId = {}", accountId);
         itemDTO.setItemType(itemType);
 
-        itemService.insertItem(itemDTO);
+        itemService.insertItem(itemDTO, accountId);
         log.debug("request add item id = {}", itemDTO.getId());
         responseDTOBuilder.code("200").message("success");
         return ResponseEntity.ok(responseDTOBuilder.build());

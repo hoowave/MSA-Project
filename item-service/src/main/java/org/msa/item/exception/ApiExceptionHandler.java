@@ -20,7 +20,7 @@ public class ApiExceptionHandler {
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<?> handleValidationExceptions(MethodArgumentNotValidException ex) throws JSONException {
+    public ResponseEntity<?> handleValidationExceptions(MethodArgumentNotValidException ex) throws Exception {
         BindingResult bindingResult = ex.getBindingResult();
         StringBuilder builder = new StringBuilder();
         for (FieldError fieldError : bindingResult.getFieldErrors()) {
